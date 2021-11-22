@@ -1,0 +1,21 @@
+{
+  "DetailedErrors": true,
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AzureAd": {
+    "Instance": "https://login.microsoftonline.com/",
+    "Domain": "__CHANGEME__.onmicrosoft.com",
+    "ClientId": "__CHANGEME__",
+    "ClientSecret": "__CHANGEME__",
+    "TenantId": "common",
+    "CallbackPath": "/signin-oidc"
+  },
+  "Graph": {
+    "BaseUrl": "https://graph.microsoft.com/v1.0",
+    "Scopes": "user.read"
+  }
+}
